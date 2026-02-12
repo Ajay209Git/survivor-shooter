@@ -1,0 +1,32 @@
+# Flutter/Dart
+# This file is a template for a .gitignore file for Flutter and Dart projects.
+
+# Build
+/build/
+
+# Flutter/Dart packs
+.health
+packages/*.flutter.gitignore
+
+# Widgets
+/.dart_tool/
+/.packages
+/main_app.dart
+
+# IDEs
+/.idea/
+/.vscode/
+
+# Configuration files
+*.iml
+*.hprof
+
+# Miscellaneous
+*.lock
+*~
+*.log
+*.swp
+*.swo
+*.tmp
+*.tmp.*
+# End of file
