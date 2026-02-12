@@ -1,0 +1,11 @@
+# The analysis_options.yaml file contains configuration for the Dart analysis tools.
+
+# This configuration enables the Dart linter.
+linter:
+  # Rules can be added to this section to customize linter behavior
+  rules:
+    # Enforce the use of consistent naming conventions
+    always_declare_return_types: true
+    # Require a new line before return statements in lists
+    always_put_required_named_parameters_first: true
+    # Other linter rules can be added as required
